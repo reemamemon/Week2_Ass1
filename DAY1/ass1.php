@@ -5,14 +5,14 @@ $z = 10;
 
 if($x > $y && $x > $z)
 {
-    echo $x;
+    echo "The greatest number is: ",$x;
 }
 elseif($y > $x && $y > $z)
 {
-    echo $y;
+    echo "The greatest number is: ",$y;
 }
 else
 {
-    echo $z;
+    echo "The greatest number is: ",$z;
 }
 ?>
